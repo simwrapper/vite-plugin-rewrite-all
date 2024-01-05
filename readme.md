@@ -2,10 +2,12 @@
 
 Vite plugin that fix dev server not rewriting the path includes a dot [vite#2190](https://github.com/vitejs/vite/issues/2190)
 
+This is a fork with merged PR2
+
 ### Installation
 
 ```
-npm install --save-dev vite-plugin-rewrite-all
+npm install --save-dev @evg3/vite-plugin-rewrite-all
 ```
 
 ### Usage
@@ -13,7 +15,7 @@ npm install --save-dev vite-plugin-rewrite-all
 Add it to vite.config.js
 
 ```js
-import pluginRewriteAll from 'vite-plugin-rewrite-all';
+import pluginRewriteAll from '@evg3/vite-plugin-rewrite-all';
 
 export default {
   plugins: [pluginRewriteAll()]
